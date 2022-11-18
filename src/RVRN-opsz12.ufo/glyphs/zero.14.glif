@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.14" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="226" y="400" type="move"/>
+      <point x="276" y="400" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="226" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="400" type="move"/>
+      <point x="146" y="400" type="line"/>
+      <point x="146" y="0" type="line"/>
+      <point x="96" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="353" y="400" type="move"/>
+      <point x="403" y="400" type="line"/>
+      <point x="403" y="0" type="line"/>
+      <point x="353" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

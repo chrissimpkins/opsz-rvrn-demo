@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+    <axes>
+        <axis tag="opsz" name="Optical size" minimum="12" maximum="14" default="12"/>
+    </axes>
+    <rules>
+        <rule name="OpSz13">
+            <conditionset>
+                <condition name="Optical size" minimum="13" maximum="13.998"/>
+            </conditionset>
+            <sub name="zero" with="zero.13"/>
+        </rule>
+        <rule name="OpSz14">
+            <conditionset>
+                <condition name="Optical size" minimum="13.999" maximum="14"/>
+            </conditionset>
+            <sub name="zero" with="zero.14"/>
+        </rule>
+    </rules>
+    <sources>
+        <source filename="RVRN-opsz12.ufo" familyname="RVRN" stylename="opsz12">
+            <lib copy="1"/>
+            <groups copy="1"/> 
+            <features copy="1"/>
+            <info copy="1"/>
+            <location>
+                <dimension name="Optical size" xvalue="12"/>
+            </location>
+        </source>
+        <source filename="RVRN-opsz14.ufo" familyname="RVRN" stylename="opsz14">
+            <location>
+                <dimension name="Optical size" xvalue="14"/>
+            </location>
+        </source>
+    </sources>
+</designspace>
